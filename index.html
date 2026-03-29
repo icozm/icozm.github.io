@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Cozmulici | Network & Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="logo">Ivan Cozmulici</a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Hi, I'm <span>Ivan Cozmulici</span></h1>
+            <p class="hero-role">Network Engineer &amp; Full-Stack Developer</p>
+            <p class="hero-text">
+              I have 5 years of experience in network operations, supporting and
+              maintaining production systems. Over the past two years, I’ve been
+              pursuing my bachelor’s in Software Engineering while building
+              applications in Java, Python, Android, SQL, and web development. I
+              enjoy creating practical solutions and combining infrastructure
+              knowledge with software development.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                View My Work
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/icozm"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.58 2 12.24c0 4.52 2.87 8.36 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.09 0-1.13.39-2.05 1.03-2.77-.11-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.06A9.28 9.28 0 0 1 12 6.78a9.3 9.3 0 0 1 2.5.35c1.9-1.34 2.74-1.06 2.74-1.06.55 1.42.21 2.47.1 2.73.64.72 1.03 1.64 1.03 2.77 0 3.96-2.35 4.82-4.58 5.08.36.32.68.96.68 1.94 0 1.4-.01 2.52-.01 2.86 0 .27.18.59.69.49A10.24 10.24 0 0 0 22 12.24C22 6.58 17.52 2 12 2Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ivan-cozmulici"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.6 18.4h2.7V9.77H5.6V18.4Zm4.27 0h2.7v-4.8c0-1.27.24-2.5 1.81-2.5 1.55 0 1.57 1.45 1.57 2.58v4.72h2.7V13.1c0-2.6-.56-4.6-3.6-4.6-1.47 0-2.46.82-2.86 1.59h-.04V9.77h-2.58c.03.77 0 8.63 0 8.63Z"
+                  />
+                </svg>
+              </a>
+              <a href="mailto:ivan@cozmulici.com" aria-label="Email">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M3 6.75A1.75 1.75 0 0 1 4.75 5h14.5A1.75 1.75 0 0 1 21 6.75v10.5A1.75 1.75 0 0 1 19.25 19H4.75A1.75 1.75 0 0 1 3 17.25V6.75Zm1.75-.25 7.25 5.44 7.25-5.44H4.75Zm14.75 11V8.37l-6.98 5.24a.9.9 0 0 1-1.04 0L4.5 8.37v9.13h15Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-wrap">
+              <img src="images/hero-image.jpeg" alt="Ivan Cozmulici" />
+            </div>
+            <div class="experience-card">
+              <strong>5+</strong>
+              <span>Years Network Operations</span>
+              <strong>2+</strong>
+              <span>Years Software Development</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section section-tight">
+        <div class="container stats-grid">
+          <article>
+            <h2>Enterprise Scale</h2>
+            <p>Networks Supporting Thousands of Users</p>
+          </article>
+
+          <article>
+            <h2>Automation</h2>
+            <p>Python-Based Monitoring & Validation</p>
+          </article>
+
+          <article>
+            <h2>Full-Stack Apps</h2>
+            <p>REST APIs, Databases, Frontend UI</p>
+          </article>
+
+          <article>
+            <h2>Security Focus</h2>
+            <p>Segmentation, ACLs, and Best Practices</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container">
+          <div class="section-heading centered">
+            <h2>What I Do Best</h2>
+          </div>
+          <div class="cards-grid three-up">
+            <article class="info-card">
+              <div class="icon-box blue">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M7 21a4 4 0 0 1-4-4V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12a4 4 0 0 1-4 4Zm0 0h12a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.34M11 7.34l1.66-1.66a2 2 0 0 1 2.82 0l2.83 2.83a2 2 0 0 1 0 2.82l-8.48 8.49M7 17h.01"
+                  />
+                </svg>
+              </div>
+              <h3>Network Infrastructure & Operations</h3>
+              <p>
+                Design, deploy, and maintain enterprise-scale network systems
+                across large environments. Experienced with routing, switching,
+                wireless systems, and security, supporting reliable connectivity
+                for thousands of users.
+              </p>
+            </article>
+            <article class="info-card">
+              <div class="icon-box purple">
+                <svg viewBox="0 0 24 24">
+                  <path d="M10 20 14 4m4 4 4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3>Automation & Problem-Solving</h3>
+              <p>
+                Build automation tools using Python to monitor networks, detect
+                issues, and reduce manual troubleshooting. Focused on improving
+                efficiency, observability, and response time in real-world
+                systems.
+              </p>
+            </article>
+            <article class="info-card">
+              <div class="icon-box green">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.58 4 8 4s8-1.79 8-4M4 7c0-2.21 3.58-4 8-4s8 1.79 8 4m0 5c0 2.21-3.58 4-8 4s-8-1.79-8-4"
+                  />
+                </svg>
+              </div>
+              <h3>Full-Stack Application Development</h3>
+              <p>
+                Develop full-stack applications using Java, Spring Boot,
+                Angular, and SQL. Build REST APIs, design databases, and create
+                responsive user interfaces for practical, real-world use cases.
+              </p>
+            </article>
+            <article class="info-card">
+              <div class="icon-box purple">
+                <svg viewBox="0 0 24 24">
+                  <path d="M10 20 14 4m4 4 4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3>Bridging Infrastructure & Software</h3>
+              <p>
+                Combine networking expertise with software engineering to build
+                scalable, reliable systems. Bring a strong understanding of how
+                applications interact with infrastructure in production
+                environments.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading centered">
+            <h2>About Me</h2>
+            <p>
+              Passionate about technology and building real-world systems, while
+              also enjoying the outdoors and exploring new environments beyond
+              the screen.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <h3>My Story</h3>
+              <p>
+                I moved to the United States at 21 and began my education in
+                networking and cybersecurity, which led me to my current role in
+                engineering. That experience shaped my work ethic and drive to
+                continuously learn and grow in the field.
+              </p>
+              <p>
+                I’m a network engineer with experience supporting and
+                maintaining enterprise systems across university and healthcare
+                environments. My work has focused on building reliable
+                infrastructure, troubleshooting complex network issues, and
+                improving system performance at scale.
+              </p>
+              <p>
+                Over the past two years, I’ve been pursuing my bachelor’s in
+                Software Engineering while developing applications in Java,
+                Python, Android, and web technologies. I’m particularly
+                interested in building systems that combine software and
+                infrastructure to improve reliability and automation.
+              </p>
+            </div>
+
+            <div class="about-image-card">
+              <img src="images/about-image.jpeg" alt="Ocean GlacierKayaking" />
+            </div>
+          </div>
+
+          <div class="split-grid">
+            <div>
+              <h3 class="subheading">Skills</h3>
+
+              <div class="skills-groups">
+                <article class="skill-group">
+                  <h4>Networking</h4>
+                  <div class="tag-list">
+                    <span>TCP/IP</span><span>Routing & Switching</span>
+                    <span>BGP</span><span>OSPF</span> <span>VLANs</span
+                    ><span>ACLs</span>
+                    <span>Wireless (Cisco 9800)</span>
+                  </div>
+                </article>
+
+                <article class="skill-group">
+                  <h4>Programming</h4>
+                  <div class="tag-list">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                  </div>
+                </article>
+
+                <article class="skill-group">
+                  <h4>Software Development</h4>
+                  <div class="tag-list">
+                    <span>Spring Boot</span><span>Angular</span>
+                    <span>REST APIs</span><span>Hibernate</span>
+                    <span>Full-Stack Development</span>
+                  </div>
+                </article>
+
+                <article class="skill-group">
+                  <h4>Tools & Platforms</h4>
+                  <div class="tag-list">
+                    <span>Git</span><span>GitHub</span> <span>Docker</span
+                    ><span>AWS</span><span>IntelliJ IDEA</span
+                    ><span>VS Code</span><span>Android Studio</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="subheading">What I Value</h3>
+              <div class="values-grid">
+                <article class="value-card">
+                  <h4>Clean & Maintainable Code</h4>
+                  <p>
+                    Writing clear, well-structured code that is easy to read,
+                    maintain, and extend.
+                  </p>
+                </article>
+
+                <article class="value-card">
+                  <h4>Reliability & Stability</h4>
+                  <p>
+                    Building systems that perform consistently and can be
+                    trusted in real-world production environments.
+                  </p>
+                </article>
+
+                <article class="value-card">
+                  <h4>Automation & Efficiency</h4>
+                  <p>
+                    Reducing manual work through automation and improving
+                    workflows with practical solutions.
+                  </p>
+                </article>
+                <article class="value-card">
+                  <h4>Clean Design</h4>
+                  <p>
+                    Creating simple, intuitive interfaces that support
+                    functionality without unnecessary complexity.
+                  </p>
+                </article>
+
+                <article class="value-card">
+                  <h4>Performance & Security</h4>
+                  <p>
+                    Designing systems with efficiency, scalability, and security
+                    best practices in mind.
+                  </p>
+                </article>
+
+                <article class="value-card">
+                  <h4>Continuous Learning</h4>
+                  <p>
+                    Constantly improving across networking, software
+                    development, and modern technologies.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading centered">
+            <h2>My Projects</h2>
+            <p>A collection of work I'm proud of</p>
+          </div>
+
+          <div class="filter-bar" id="filterBar">
+            <button class="filter-btn active" data-category="All">All</button>
+            <button class="filter-btn" data-category="Web App">Web App</button>
+            <button class="filter-btn" data-category="Mobile">Mobile</button>
+            <button class="filter-btn" data-category="Back-End">Back-End</button>
+          </div>
+
+          <div class="projects-grid" id="projectsGrid">
+
+            <article class="project-card" data-category="Web App">
+              <div class="project-image">
+                <img
+                  src="./projects_files/site1.png"
+                  alt="Responsive Web Design"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Responsive UI Design</h3>
+                <p>
+                  A responsive front-end website built with HTML, CSS, and JavaScript, focused on clean design and user experience.
+                </p>
+                <div class="tag-list project-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span
+                  >
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/icozm/frontend-responsive-ui-design.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                  <a
+                    href="https://icozm.github.io/frontend-responsive-ui-design/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Mobile">
+              <div class="project-image">
+                <img
+                  src="./projects_files/vacationlive.png"
+                  alt="Mobile Vacation Tracker"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Mobile Vacation Tracker</h3>
+                <p>
+                  VacationLive is a mobile application designed to help users plan, organize, and manage their vacations in one convenient place.
+                </p>
+                <div class="tag-list project-tags">
+                  <span>Java</span><span>Android Studio</span><span>Room Database</span
+                  >
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/icozm/vacationlive-android-app.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="Back-End">
+              <div class="project-image">
+                <img
+                        src="./projects_files/firetireshop.png"
+                        alt="E-Commerce Platform"
+                />
+              </div>
+              <div class="project-content">
+                <h3>E-Commerce Platform</h3>
+                <p>
+                  Spring Boot backend for a tire shop system with REST APIs, JPA data modeling, and order management.
+                </p>
+                <div class="tag-list project-tags">
+                  <span>Java</span><span>Spring Boot</span><span>MySQL</span
+                ><span>Spring Data JPA</span><span>Maven</span>
+                </div>
+                <div class="project-links">
+                  <a
+                          href="https://github.com/icozm/ivansfiretire-shop-springboot.git"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                  >Code</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Web App">
+              <div class="project-image">
+                <img
+                  src="./projects_files/worldmap.png"
+                  alt="Interactive World Map"
+                />
+              </div>
+              <div class="project-content">
+                <h3>API Interactive Map</h3>
+                <p>
+                  Angular-based web application that interacts with a world data API to display information about countries.
+                </p>
+                <div class="tag-list project-tags">
+                  <span>Angular</span><span>REST API</span><span>Node.js</span>
+                  <span>HTML</span><span>CSS</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/icozm/world-map-api-angular.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="Back-End">
+              <div class="project-image">
+                <img
+                        src="./projects_files/in_progress.png"
+                        alt="Coming Soon"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Coming Soon...</h3>
+                <p>
+                  This project is under construction.
+                </p>
+                <div class="tag-list project-tags">
+                  <span>Python</span><span>API</span>
+                </div>
+                <div class="project-links">
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-heading centered">
+            <h2>Get In Touch</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div>
+              <h3>Let's Talk</h3>
+              <p class="contact-intro">
+                If you’d like to connect or have any questions, feel free to reach out through any of the following channels.
+              </p>
+
+              <div class="contact-list">
+                <article>
+                  <h4>Email</h4>
+                  <a href="mailto:ivan@cozmulici.com"
+                    >ivan@cozmulici.com</a
+                  >
+                </article>
+                <article>
+                  <h4>LinkedIn</h4>
+                  <a
+                    href="https://www.linkedin.com/in/ivan-cozmulici"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    linkedin.com/in/ivan-cozmulici
+                  </a>
+                </article>
+                <article>
+                  <h4>Location</h4>
+                  <p>Seattle, WA</p>
+                </article>
+              </div>
+
+              <div class="social-links social-links-contact">
+                <a
+                  href="https://github.com/icozm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2C6.48 2 2 6.58 2 12.24c0 4.52 2.87 8.36 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.09 0-1.13.39-2.05 1.03-2.77-.11-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.06A9.28 9.28 0 0 1 12 6.78a9.3 9.3 0 0 1 2.5.35c1.9-1.34 2.74-1.06 2.74-1.06.55 1.42.21 2.47.1 2.73.64.72 1.03 1.64 1.03 2.77 0 3.96-2.35 4.82-4.58 5.08.36.32.68.96.68 1.94 0 1.4-.01 2.52-.01 2.86 0 .27.18.59.69.49A10.24 10.24 0 0 0 22 12.24C22 6.58 17.52 2 12 2Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://linkedin.com/in/ivan-cozmulici"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.6 18.4h2.7V9.77H5.6V18.4Zm4.27 0h2.7v-4.8c0-1.27.24-2.5 1.81-2.5 1.55 0 1.57 1.45 1.57 2.58v4.72h2.7V13.1c0-2.6-.56-4.6-3.6-4.6-1.47 0-2.46.82-2.86 1.59h-.04V9.77h-2.58c.03.77 0 8.63 0 8.63Z"
+                    />
+                  </svg>
+                </a>
+                
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <h3>Send a Message</h3>
+              <div class="success-message hidden" id="successMessage">
+                <h4>Message Sent!</h4>
+                <p>Thank you for reaching out. I'll get back to you soon.</p>
+              </div>
+
+              <form id="contactForm" class="contact-form">
+                <label>
+                  <span>Name</span>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="your.email@example.com"
+                    required
+                  />
+                </label>
+                <label>
+                  <span>Subject</span>
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="What's this about?"
+                    required
+                  />
+                </label>
+                <label>
+                  <span>Message</span>
+                  <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Tell me about your project..."
+                    required
+                  ></textarea>
+                </label>
+                <button type="submit" class="btn btn-primary btn-full">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
